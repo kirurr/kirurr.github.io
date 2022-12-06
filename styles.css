@@ -1,4 +1,8 @@
 body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -100px;
     font-family: Georgia;
     font-size: 16px;
     margin: 0 auto;   /* center content */
@@ -8,6 +12,14 @@ body {
     padding-bottom: 32px;
   }
   
+#background {
+    position: relative;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+}
 p {
     margin-bottom: 12px;
 }
@@ -45,4 +57,8 @@ h2.header-title {
 
 ul {
     margin-top: 0;
+}
+
+div {
+    position: relative;
 }
