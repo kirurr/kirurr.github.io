@@ -2,7 +2,7 @@ body {
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: -100px;
+    background-position-x: 50%;
     font-family: Georgia;
     font-size: 16px;
     margin: 0 auto;   /* center content */
